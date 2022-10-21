@@ -1,0 +1,2 @@
+# calcStandard
+A standard calculator
