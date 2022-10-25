@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+/* positioning calculator in the middle and rounding edges*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#calc-body {
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 36rem;
+    width: 23rem;
+    margin: 8% 0;
+}
+
+.line-1 {
+    display: flex;
+    justify-content: right;
+    margin: 0.4rem;
+}
+
+.line-2,
+.line-3,
+.line-4,
+.line-5,
+.line-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#power-symbol,
+#delete-symbol {
+    height: 2.2rem;
+    width: 2.2rem;
+}
+
+#number-typed {
+    width: 100%;
+}
+
+span {
+    font-size: 3rem;
+}
+
+.all-buttons {
+    border-radius: 11.6px;
+    margin: 0.4rem;
+    padding: 0.2rem 0.34rem;
+}
