@@ -4,6 +4,60 @@
 
 /* positioning calculator in the middle and rounding edges*/
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 1rem;
+}
+
+.navbar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.8rem;
+}
+
+#logo-image__link:hover,
+#logo-image__link:active {
+    border-right: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: black;
+    margin-top: 0.8rem;
+}
+
+.navbar-menu__item {
+    color: black;
+}
+
+.navbar-menu__item:active,
+.navbar-menu__item:hover {
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+}
+
+.navbar-menu__item {
+    padding: 0.6rem;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -13,11 +67,15 @@ main {
 
 #calc-body {
     border: 2px black solid;
-    border-radius: 15px;
-    height: 36rem;
-    width: 23rem;
-    margin: 8% 0;
+    border-radius: 34px;
+    height: 39rem;
+    width: 26rem;
 }
+
+[type*="text"] {
+    font-size: 3rem;
+}
+
 
 .line-1 {
     display: flex;
@@ -33,6 +91,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    ;
 }
 
 #power-symbol,
@@ -42,7 +101,8 @@ main {
 }
 
 #number-typed {
-    width: 100%;
+    width: 285px;
+    height: 65px;
 }
 
 span {
@@ -51,6 +111,33 @@ span {
 
 .all-buttons {
     border-radius: 11.6px;
-    margin: 0.4rem;
-    padding: 0.2rem 0.34rem;
+    margin: 1.2rem;
+    padding: 0.34rem 1.2rem;
+    background-color: black;
+    color: white;
+}
+
+.all-buttons:hover,
+.all-buttons:active {
+    background-color: white;
+    color: black;
+}
+
+.button-power {
+    border-radius: 11.6px;
+    margin: 1.2rem;
+    padding: 0.34rem 0.6rem;
+}
+
+.button-delete {
+    border-radius: 11.6px;
+    margin: 1.2rem;
+    padding: 0.7rem 0.86rem;
+}
+
+.button-power:hover,
+.button-power:active,
+.button-delete:hover,
+.button-delete:active {
+    background-color: grey;
 }
