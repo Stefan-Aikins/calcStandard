@@ -68,8 +68,8 @@ main {
 #calc-body {
     border: 2px black solid;
     border-radius: 34px;
-    height: 39rem;
-    width: 30rem;
+    height: 42rem;
+    width: 31rem;
 }
 
 [type*="text"] {
@@ -91,7 +91,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    ;
 }
 
 #power-symbol,
@@ -100,9 +99,17 @@ main {
     width: 2.2rem;
 }
 
-#number-typed {
-    width: 285px;
-    height: 65px;
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+
+.line-2 {
+    border: solid 1px black;
+    width: 20rem;
+    height: 4rem;
 }
 
 span {
@@ -117,11 +124,12 @@ span {
     color: white;
 }
 
-.all-buttons:hover,
 .all-buttons:active {
     background-color: white;
     color: black;
 }
+
+
 
 .button-power {
     border-radius: 11.6px;
@@ -129,7 +137,7 @@ span {
     padding: 0.34rem 0.6rem;
 }
 
-.button-delete {
+.delete-button {
     border-radius: 11.6px;
     margin: 1.2rem;
     padding: 0.7rem 0.86rem;
@@ -137,7 +145,7 @@ span {
 
 .button-power:hover,
 .button-power:active,
-.button-delete:hover,
+.delete-button:hover,
 .button-delete:active {
     background-color: grey;
 }

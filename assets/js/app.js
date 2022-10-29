@@ -1,18 +1,17 @@
 
-numberTyped.value = "";
-let defaultValue = numberTyped.value;
+powerBtn.addEventListener('click', onAndOff)
+let displayOutput = displayResults.textContent
+displayOutput = parseInt(displayOutput.value)
 
-//content to display when calculator is turned on or off
-//when the text input is empty, clicking the power should turn on calculator and show 0
-function turnOfOn() {
-    if (defaultValue !== 0) {
-        defaultValue = 0;
-    } else if (defaultValue == 0 || defaultValue > 0 || defaultValue < 0) {
-        defaultValue = 0;
+//the display or output should go blank when on and off button is clicked
+//if the on and off button is clicked and there is results on display, clear and leave empty
+function onAndOff() {
+    if (ddisplayResults >= 0 || displayResults <= 0) {
+        displayResults = null;
+    } else if (displayResults == null) {
+        displayResults = 0
     }
+
+
 }
 
-console.log(numberTyped, turnOfOn())
-
-//The calculator shows zero when calculator is powered on
-powerBtn.addEventListener('click', turnOfOn);

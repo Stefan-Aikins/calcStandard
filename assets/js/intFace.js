@@ -1,18 +1,46 @@
 // DOM manipiulation fro power, delete and textbox
 
 const powerBtn = document.getElementById('power-toggle');
-const deleteBtn = document.querySelector('.delete-button');
-let numberTyped = document.getElementById('number-typed');
 
 //DOM manipulation for numbers
-let zero = document.querySelector('.num0').firstChild.innerText;
-let one = document.querySelector('.num1').firstChild.innerText;
-let two = document.querySelector('.num2').firstChild.innerText;
-let three = document.querySelector('.num3').firstChild.innerText;
-let four = document.querySelector('.num4').firstChild.innerText;
-let five = document.querySelector('.num5').firstChild.innerText;
-let six = document.querySelector('.num6').firstChild.innerText;
-let seven = document.querySelector('.num7').firstChild.innerText;
-let eight = document.querySelector('.num8').firstChild.innerText;
-let nine = document.querySelector('.num9').firstChild.innerText;
+//Row 1
+let zero = document.querySelector('.num0')
+let one = document.querySelector('.num1')
+let two = document.querySelector('.num2')
+let multiplyBtn = document.querySelector('.multiply-btn')
+//Row 2
+let three = document.querySelector('.num3')
+let four = document.querySelector('.num4')
+let five = document.querySelector('.num5')
+let divideBtn = document.querySelector('.divide-btn');
+//Row 3
+let six = document.querySelector('.num6')
+let seven = document.querySelector('.num7')
+let eight = document.querySelector('.num8')
+let addBtn = document.querySelector('.add-btn');
+//Row 4
+let nine = document.querySelector('.num9')
+const deleteBtn = document.querySelector('.delete-button');
+let equalBtn = document.querySelector('.equal-btn');
+let subtractBtn = document.querySelector('.subtract-btn');
 
+//display reults in h2
+
+let displayResults = document.getElementById('display-results')
+
+zero.addEventListener('click',)
+one.addEventListener('click',)
+two.addEventListener('click',)
+multiplyBtn.addEventListener('click',)
+three.addEventListener('click',)
+four.addEventListener('click',)
+five.addEventListener('click',)
+divideBtn.addEventListener('click',)
+six.addEventListener('click',)
+seven.addEventListener('click',)
+eight.addEventListener('click',)
+addBtn.addEventListener('click',)
+nine.addEventListener('click',)
+deleteBtn.addEventListener('click',)
+equalBtn.addEventListener('click',)
+subtractBtn.addEventListener('click',)
