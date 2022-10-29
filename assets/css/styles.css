@@ -69,7 +69,7 @@ main {
     border: 2px black solid;
     border-radius: 34px;
     height: 39rem;
-    width: 26rem;
+    width: 30rem;
 }
 
 [type*="text"] {
