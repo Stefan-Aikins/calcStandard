@@ -1,4 +1,4 @@
-// DOM manipiulation fro power, delete and textbox
+// DOM manipiulation for power, delete and textbox
 
 const powerBtn = document.getElementById('power-toggle');
 
@@ -28,7 +28,8 @@ let subtractBtn = document.querySelector('.subtract-btn');
 
 let displayResults = document.getElementById('display-results')
 
-zero.addEventListener('click',)
+powerBtn.addEventListener('click', turnOnAndOff)
+/*
 one.addEventListener('click',)
 two.addEventListener('click',)
 multiplyBtn.addEventListener('click',)
@@ -44,3 +45,4 @@ nine.addEventListener('click',)
 deleteBtn.addEventListener('click',)
 equalBtn.addEventListener('click',)
 subtractBtn.addEventListener('click',)
+*/
