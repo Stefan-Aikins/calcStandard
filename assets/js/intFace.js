@@ -1,6 +1,7 @@
-// DOM manipiulation for power, delete and textbox
+// DOM manipiulation for power, delete
 
-const powerBtn = document.getElementById('power-toggle');
+let powerBtn = document.getElementById('power-toggle');
+let displayResults = document.getElementById('display-results')
 
 //DOM manipulation for numbers
 //Row 1
@@ -17,7 +18,7 @@ let divideBtn = document.querySelector('.divide-btn');
 let six = document.querySelector('.num6')
 let seven = document.querySelector('.num7')
 let eight = document.querySelector('.num8')
-let addBtn = document.querySelector('.add-btn');
+let addBtn = document.querySelector('.add-btn')
 //Row 4
 let nine = document.querySelector('.num9')
 const deleteBtn = document.querySelector('.delete-button');
@@ -26,9 +27,7 @@ let subtractBtn = document.querySelector('.subtract-btn');
 
 //display reults in h2
 
-let displayResults = document.getElementById('display-results')
 
-powerBtn.addEventListener('click', turnOnAndOff)
 /*
 one.addEventListener('click',)
 two.addEventListener('click',)
